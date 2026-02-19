@@ -168,28 +168,25 @@ All transformations done using ADF Data Flows (low-code, Spark-backed)
 ---
 
 ## 📁 Data Lake Folder Structure
-
+```
 bronze/
-└── onprem/           → dim_airline.csv, dim_flight.csv, dim_passenger.csv
-
-└── github/           → dim_airport.json
-
-└── sql/              → fact_bookings (parquet files)
-
+├── onprem/           → dim_airline.csv, dim_flight.csv, dim_passenger.csv
+├── github/           → dim_airport.json
+├── sql/              → fact_bookings (parquet files)
 └── monitor/
-      └── last_load/  → last_load.json (watermark date tracker)
+      ├── last_load/  → last_load.json (watermark date tracker)
       └── empty_json/ → empty.json (template file)
-      
 
 silver/
-└── dim_airline/      → Delta format
-└── dim_flight/       → Delta format
-└── dim_passenger/    → Delta format
-└── dim_airport/      → Delta format
+├── dim_airline/      → Delta format
+├── dim_flight/       → Delta format
+├── dim_passenger/    → Delta format
+├── dim_airport/      → Delta format
 └── fact_bookings/    → Delta format
 
 gold/
 └── business_view/    → Delta format (Top 5 airlines by revenue)
+```
 
 ---
 
