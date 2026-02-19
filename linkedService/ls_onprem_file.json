@@ -1,0 +1,17 @@
+{
+	"name": "ls_onprem_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\ShubhamDangiFiles",
+			"userId": "SHUBHAMDANGI\\IRUser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4ZDEzOWMzMi1hMDAyLTQxZDItYjQ2ZS1jOWNiODkwNTc2NmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "shubham-self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

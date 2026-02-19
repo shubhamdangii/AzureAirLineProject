@@ -1,0 +1,9 @@
+{
+	"name": "df-adf-project-canada",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4af462a5-8f43-4268-898d-c481f7aaf148",
+		"tenantId": "b5996326-1259-4eee-bf68-479bfba149b1"
+	}
+}
