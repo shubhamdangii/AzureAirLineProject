@@ -171,11 +171,15 @@ All transformations done using ADF Data Flows (low-code, Spark-backed)
 
 bronze/
 └── onprem/           → dim_airline.csv, dim_flight.csv, dim_passenger.csv
+
 └── github/           → dim_airport.json
+
 └── sql/              → fact_bookings (parquet files)
+
 └── monitor/
       ├── last_load/  → last_load.json (watermark date tracker)
       └── empty_json/ → empty.json (template file)
+      
 
 silver/
 └── dim_airline/      → Delta format
