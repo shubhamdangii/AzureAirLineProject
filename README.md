@@ -177,7 +177,7 @@ bronze/
 └── sql/              → fact_bookings (parquet files)
 
 └── monitor/
-      ├── last_load/  → last_load.json (watermark date tracker)
+      └── last_load/  → last_load.json (watermark date tracker)
       └── empty_json/ → empty.json (template file)
       
 
